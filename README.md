@@ -116,8 +116,8 @@ CITATIONS
 If you use this tracker in a scientific publication, please cite:
 
 David Held, Jesse Levinson, Sebastian Thrun, Silvio Savarese.
-Combining 3D Shape, Color, and Motion for Robust Anytime Tracking.
-Robotics: Science and Systems (RSS), 2014
+[Combining 3D Shape, Color, and Motion for Robust Anytime Tracking.
+Robotics: Science and Systems (RSS), 2014](https://github.com/jackros1022/precision-tracking/blob/master/data/Combining%203D%20Shape%2C%20Color%2C%20and%20Motion%20for%20Robust%20Anytime%20Tracking.pdf)
 
 David Held, Jesse Levinson, Sebastian Thrun.
 Precision Tracking with Sparse 3D and Dense Color 2D Data.

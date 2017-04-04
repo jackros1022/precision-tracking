@@ -6,12 +6,11 @@ if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Release")
 endif()
 
-SET(CMAKE_MODULE_PATH /opt/ros/kinetic/share/cmake_modules/cmake/Modules/)
 SET(CMAKE_CXX_COMPILER mpicxx)
 include_directories(MPI_INCLUDE_PATH)
 
 find_package(Boost REQUIRED thread signals)
-find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common kdtree io)
 
 include_directories (include ${EIGEN_INCLUDE_DIRS} ${PCL_INCLUDE_DIRS})
